@@ -1,0 +1,25 @@
+# Dependencies and generated files
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Keep research projects and family documents outside this source repository
+/Rodokmen*/
+/dokumenty/
+/pracovni/
+/vyrezy/
+/zdroje/
+/vystupy/
+
+# Generated release packages
+*.zip
+*.tar.gz

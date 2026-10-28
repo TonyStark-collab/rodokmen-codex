@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rodokmen"
+  short_description: "Předci, matriky a rodinný web"
+  default_prompt: "Použij $rodokmen a pomoz mi sestavit rodokmen z rodinných dokumentů a matrik se zdroji."
+policy:
+  allow_implicit_invocation: true

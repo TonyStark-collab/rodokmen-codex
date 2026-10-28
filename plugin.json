@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rodokmen-codex",
+  "version": "1.0.0",
+  "description": "Český genealogický skill pro Codex: rodinné podklady, digitalizované matriky, doložení vztahů, přepisy a rodinný web. Adaptace MIT částí projektu Jindřicha Šaršona.",
+  "license": "MIT",
+  "repository": "https://github.com/TonyStark-collab/rodokmen-codex",
+  "keywords": ["rodokmen", "genealogie", "matriky", "Codex"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Rodokmen",
+        "shortDescription": "Předci, matriky a rodinný web",
+        "longDescription": "Osobní skill pro hledání předků z rodinných dokumentů a digitalizovaných matrik. Pracuje s původními snímky, přepisem, českým překladem, citacemi a mírou doložení jednotlivých vztahů. Obsahuje nástroje pro vybrané české archivy, import GEDCOM a MyHeritage FTB, obnovitelný projekt a šablonu rodinného webu. Dostupnost archivů závisí na nástrojích a přístupu v dané relaci. Vychází z MIT částí sarsonj/rodokmen-skill; postupy byly přizpůsobeny Codexu.",
+        "category": "Education & Research",
+        "capabilities": [],
+        "defaultPrompt": "Pomoz mi sestavit rodokmen z rodinných dokumentů a matrik a dolož jednotlivé vztahy zdroji."
+      }
+    }
+  }
+}
